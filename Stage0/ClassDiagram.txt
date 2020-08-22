@@ -55,6 +55,3 @@ classDiagram
         +drawMenuScreen()
         +initializePositions(Board, Paddle, Ball)
     }
-
-                    
-
