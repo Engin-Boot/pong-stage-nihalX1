@@ -30,3 +30,10 @@ When the ball collides with the left wall or right wall
 
 Then The Score Board is updated based on the player who scored.
 UI Score system is also updated.
+
+### Scenario: When the game loads initially, main menu screen is displayed
+Given: We have a working game
+
+When: When we load up the game
+
+Then: Display the menu screen
