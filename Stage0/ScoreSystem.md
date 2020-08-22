@@ -1,8 +1,8 @@
-# User Interface
+# Score System
 
 ## Feature
 
-This module explains all the changes based on the SoreSystem.
+This module explains all the changes based on the Score System.
 
 ## Acceptance Criteria
 
