@@ -1,0 +1,15 @@
+# Ball
+
+## Feature
+
+This module explains all the changes related to Ball.
+
+## Acceptance Criteria
+
+### Scenario: Direction of ball changes when it hits the paddle.
+
+Given the game is started and the system conditions are working fine
+
+When the Paddle hits the ball.
+
+Then the ball will change direction.
