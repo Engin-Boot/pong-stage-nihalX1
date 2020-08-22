@@ -4,7 +4,7 @@
 
 -describe-how-your-modules-interact-to-start
 
-Initially UserInterface module displays Menu Screen.
+Initially User Interface module displays Menu Screen.
 The player clicks on Play button on Menu Screen.
 Then objects like Player,Paddle,Ball,Board,Score System get created.
 They get assigned default positions.
