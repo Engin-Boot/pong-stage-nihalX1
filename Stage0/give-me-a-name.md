@@ -32,8 +32,25 @@ Then The Score Board is updated based on the player who scored.
 UI Score system is also updated.
 
 ### Scenario: When the game loads initially, main menu screen is displayed
+
 Given: We have a working game
 
 When: When we load up the game
 
 Then: Display the menu screen
+
+### Scenario: On pressing play button, game elements get drawn
+
+Given: We have a working game
+
+When: When we click on the play button
+
+Then: The ball, paddle, initial score get initialised with default positions and then rendered.
+
+### Scenario: On winning, the winner is displayed 
+
+Given: We have a working game
+
+When: When player scores 5 goals.
+
+Then: He is displayed as the winner.
