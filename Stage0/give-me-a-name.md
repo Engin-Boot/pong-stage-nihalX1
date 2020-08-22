@@ -45,7 +45,8 @@ Given: We have a working game
 
 When: When we click on the play button
 
-Then: The ball, paddle, initial score get initialised with default positions and then rendered.
+Then: The ball, paddle, initial score get initialised with default positions.
+Then they are rendered.
 
 ### Scenario: On winning, the winner is displayed 
 
