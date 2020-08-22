@@ -21,5 +21,3 @@ Given the game is started and the system conditions are working fine,
 When the paddle position moves via  move function
 
 Then the paddle position is updated in the UI
-
-
