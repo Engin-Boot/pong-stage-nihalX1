@@ -14,7 +14,7 @@ When the player wants to move paddle
 
 Then move() method of paddle is executed for that Player.
 
-### Scenario: Paddle checks if collision has occured when ball updates position
+### Scenario: Paddle checks if collided with ball when ball updates position
 
 Given the game is started and the system conditions are working fine
 
