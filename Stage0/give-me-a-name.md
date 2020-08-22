@@ -29,4 +29,4 @@ Given the game is started and the system conditions are working fine
 When the ball collides with the left wall or right wall
 
 Then The Score Board is updated based on the player who scored.
-UI Score system is also updated
+UI Score system is also updated.
