@@ -4,6 +4,8 @@
 
 -describe-how-your-modules-interact-to-start
 
+
+
 ## Movement Initiation
 
 -describe-how-modules-interact-to-make-the-ball-move.
@@ -16,3 +18,8 @@ If ball hits either left or right wall, ball gets reset to middle position.
 ## One score
 
 -describe-how-the-modules-interact-to-record-scores
+
+Player 1 is on left and Player 2 is on right.
+Board detects that either its left or right wall has collided with Ball.
+If right wall has been collided with, Score System updates score for Player1.
+If left wall has been collided with, Score System updates score for Player2.
