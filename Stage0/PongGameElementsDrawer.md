@@ -1,12 +1,12 @@
-# User Interface
+# Pong Game Elements Drawer
 
 ## Feature
 
-This module explains all the changes based on the UI.
+This module explains all the changes based on rendering game elements.
 
 ## Acceptance Criteria
 
-### Scenario: the User Interface is updated for ball position
+### Scenario: the Ball is re-drawn when ball position is updated.
 
 Given the game is started and the system conditions are working fine
 
