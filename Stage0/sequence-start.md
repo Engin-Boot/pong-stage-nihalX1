@@ -4,11 +4,11 @@
 
 -describe-how-your-modules-interact-to-start
 
-Initially User Interface module displays Menu Screen.
-The player clicks on Play button on Menu Screen.
-Then objects like Player,Paddle,Ball,Board,Score System get created.
-They get assigned default positions.
-Then game starts.
+Initially Pong Menu module will display Menu screen.
+The player clicks on "play" button on Menu Screen.
+Then Pong Game Logic module will check if both players have joined.
+If both have not joined, it will be waiting.
+If both have joined, then game is started with game elements initialized with default positions.
 
 ## Movement Initiation
 
@@ -17,7 +17,8 @@ Then game starts.
 Ball initially starts in middle and moves in random direction.
 When player wants to move paddle, move() method is called.
 When paddle detects it has collided with ball,direction of ball changes.
-If ball hits either left or right wall, ball gets reset to middle position.
+If ball hits either left or right wall,score is updated.
+Ball gets reset to middle position.
 
 ## One score
 
