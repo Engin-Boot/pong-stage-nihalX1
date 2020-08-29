@@ -8,7 +8,7 @@ Initially Pong Menu module will display Menu screen.
 The player clicks on "play" button on Menu Screen.
 Then Pong Game Logic module will check if both players have joined.
 If both have not joined, it will be waiting.
-If both have joined, then game is started with game elements initialized with default positions.
+If both have joined,game starts with game elements initialized with default positions.
 
 ## Movement Initiation
 
