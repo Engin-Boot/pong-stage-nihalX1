@@ -1,10 +1,18 @@
 # Class Diagram
 
 classDiagram
-    UI ..> Paddle
-    UI ..> Ball
-    UI ..> Player
-    UI ..> Board
+    PongGameElementsDrawer ..> Paddle
+    PongGameElementsDrawer ..> Ball
+    PongGameElementsDrawer ..> Player
+    PongGameElementsDrawer ..> Board
+
+    PongMenu --> PongGameLogic
+
+    PongGameLogic ..> Player
+    PongGameLogic ..> Paddle
+    PongGameLogic ..> Ball
+    PongGameLogic ..> Board
+    PongGameLogic ..> ScoreSystem
 
     Player --> Paddle
     Paddle ..> Ball
@@ -44,14 +52,31 @@ classDiagram
         -Player p2
         +updateScore(Player player1, Player player2, Board board)
         +getScorePlayer(Player)
-        +checkWinner(Player p1, Player p2)
+        +checkWinner(Player p1, Player p2)
     }
-    class UI{
+    class PongGameElementsDrawer {
         +drawPaddle(Paddle paddle)
         +drawBall(Ball ball)
         +drawScoreBoard(Player player1, Player player2)
         +displayWinner(Player player1, Player player2)
         +drawBoard(Board)
-        +drawMenuScreen()
-        +initializePositions(Board, Paddle, Ball)
     }
+
+    class PongMenu{
+      - start
+      - exit
+      - rating
+      +startGame()
+      +exit()
+      +rateGame()
+    }
+
+     class PongGameLogic{
+      +checkBothPlayersJoined()
+      +initializePongGameElements()
+      +startGame() 
+      +resetPongGameElementsOnScoring()
+     }
+
+
+               
