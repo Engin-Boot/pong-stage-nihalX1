@@ -6,7 +6,7 @@ This module explains all the changes based on the Paddle.
 
 ## Acceptance Criteria
 
-### Scenario: Move() method is executed when Player wants to move paddle
+### Scenario: Player wants to move paddle
 
 Given the game is started and the system conditions are working fine
 
