@@ -6,7 +6,7 @@ This module explains all the changes based on rendering game elements.
 
 ## Acceptance Criteria
 
-### Scenario: the Ball is re-drawn when ball position is updated.
+### Scenario: the Ball is re-drawn when ball position is updated
 
 Given the game is started and the system conditions are working fine
 
